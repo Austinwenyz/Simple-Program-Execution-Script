@@ -1,8 +1,6 @@
 # Program Execution Script
 
-This README document provides instructions on how to use the `runProgram.sh` script to compile and run programs written in Java, Python, C, or C++ with test data.
-
--> Warning：please use chmod +x runProgram.sh to give permission to run before use.
+- Warning：please use chmod +x runProgram.sh to give permission to run before use.
 
 ## Usage
 
@@ -34,7 +32,8 @@ The script will automatically detect the file type based on the extension and ex
 
 # 程序执行脚本
 
-本 README 文件提供了关于如何使用 `runProgram.sh` 脚本来编译和运行 Java、Python、C 或 C++ 编写的程序，并使用测试数据的说明。
+警告! 在使用前请使用chmod +x runProgram.sh赋予权限运行
+
 
 ## 使用方法
 
