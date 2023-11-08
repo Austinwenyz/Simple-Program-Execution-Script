@@ -2,6 +2,8 @@
 
 This README document provides instructions on how to use the `runProgram.sh` script to compile and run programs written in Java, Python, C, or C++ with test data.
 
+-> Warning：please use chmod +x runProgram.sh to give permission to run before use.
+
 ## Usage
 
 ```sh
