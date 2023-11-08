@@ -1,6 +1,4 @@
 #!/bin/bash
-
-# Check for input argument
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <script> <test_data_file>"
     exit 1
@@ -9,22 +7,18 @@ fi
 programPath="$1"
 testFilePath="$2"
 
-# Check if the provided program file exists
 if [ ! -f "$programPath" ]; then
     echo "The program file does not exist."
     exit 1
 fi
 
-# Check if the test data file exists
 if [ ! -f "$testFilePath" ]; then
     echo "The test data file does not exist."
     exit 1
 fi
 
-# Extract the file extension to determine the language
 fileExtension="${programPath##*.}"
 
-# Determine action based on file extension
 case $fileExtension in
     java)
         className=$(basename "$programPath" .java)
